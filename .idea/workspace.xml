@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6d90de8-82c8-4a73-a1a4-e13c2c835225" name="Changes" comment="add classes BaseTest, LoginTests, ManePage, RegistrationTests, RegistrationPage,">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/UserDataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/СonstructorTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/ManePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/RegistrationPage.java" beforeDir="false" />
+    <list default="true" id="f6d90de8-82c8-4a73-a1a4-e13c2c835225" name="Changes" comment="сделаны теста на регистрацию и логин">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/LoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/RegistrationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +53,7 @@
       <recent name="ru.yandex.practikum.pageObject" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTests.checkLoginThroughButtonPersonalArea">
+  <component name="RunManager" selected="JUnit.LoginTests.checkLoginThroughButtonLogin">
     <configuration name="LoginTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA-java-diplom-3" />
       <extension name="coverage">
@@ -144,10 +133,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTests.checkLoginThroughButtonLogin" />
         <item itemvalue="JUnit.LoginTests.checkLoginThroughButtonPersonalArea" />
         <item itemvalue="JUnit.LoginTests" />
         <item itemvalue="JUnit.ru.yandex.practikum.pageObjectTests in QA-java-diplom-3" />
-        <item itemvalue="JUnit.LoginTests.checkLoginThroughButtonLogin" />
         <item itemvalue="JUnit.RegistrationTests.checkRegistrationWithValidCredentials" />
       </list>
     </recent_temporary>
@@ -175,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667660132827</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="сделаны теста на регистрацию и логин">
+      <created>1667879697460</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667879697460</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +188,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="QA-java-diplom-3, UI" />
     <MESSAGE value="add classes BaseTest, LoginTests, ManePage, RegistrationTests, RegistrationPage," />
-    <option name="LAST_COMMIT_MESSAGE" value="add classes BaseTest, LoginTests, ManePage, RegistrationTests, RegistrationPage," />
+    <MESSAGE value="сделаны теста на регистрацию и логин" />
+    <option name="LAST_COMMIT_MESSAGE" value="сделаны теста на регистрацию и логин" />
   </component>
 </project>

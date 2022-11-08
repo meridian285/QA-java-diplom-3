@@ -1,17 +1,8 @@
 package ru.yandex.practikum.pageObjectTests;
 
-import com.codeborne.selenide.Configuration;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.After;
-import org.junit.AfterClass;
+
 import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.html5.WebStorage;
-
-import java.time.Duration;
-
-import static com.codeborne.selenide.Browsers.CHROME;
 import static com.codeborne.selenide.Selenide.open;
 
 public abstract class  BaseTest {
