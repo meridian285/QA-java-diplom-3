@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6d90de8-82c8-4a73-a1a4-e13c2c835225" name="Changes" comment="QA-java-diplom-3, UI">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/ManePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/LoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/RegistrationTests.java" afterDir="false" />
+    <list default="true" id="f6d90de8-82c8-4a73-a1a4-e13c2c835225" name="Changes" comment="add classes BaseTest, LoginTests, ManePage, RegistrationTests, RegistrationPage,">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/UserDataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/СonstructorTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/ManePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/RegistrationPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/RegistrationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +54,104 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/alexandr/IdeaProjects/QA-java-diplom-4"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Users/alexandr/IdeaProjects/QA-java-diplom-3/src/test/java",
+    "last_opened_file_path": "C:/Users/alexandr/Desktop/Sprint_4-develop"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.yandex.practikum.pageObject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LoginTests.checkLoginThroughButtonPersonalArea">
+    <configuration name="LoginTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.practikum.pageObjectTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.practikum.pageObjectTests" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practikum.pageObjectTests.LoginTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.checkLoginThroughButtonLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.practikum.pageObjectTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.practikum.pageObjectTests" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practikum.pageObjectTests.LoginTests" />
+      <option name="METHOD_NAME" value="checkLoginThroughButtonLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.checkLoginThroughButtonPersonalArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.practikum.pageObjectTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.practikum.pageObjectTests" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practikum.pageObjectTests.LoginTests" />
+      <option name="METHOD_NAME" value="checkLoginThroughButtonPersonalArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTests.checkRegistrationWithValidCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.practikum.pageObjectTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.practikum.pageObjectTests" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practikum.pageObjectTests.RegistrationTests" />
+      <option name="METHOD_NAME" value="checkRegistrationWithValidCredentials" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.yandex.practikum.pageObjectTests in QA-java-diplom-3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.practikum.pageObjectTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.practikum.pageObjectTests" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoginTests.checkLoginThroughButtonPersonalArea" />
+        <item itemvalue="JUnit.LoginTests" />
+        <item itemvalue="JUnit.ru.yandex.practikum.pageObjectTests in QA-java-diplom-3" />
+        <item itemvalue="JUnit.LoginTests.checkLoginThroughButtonLogin" />
+        <item itemvalue="JUnit.RegistrationTests.checkRegistrationWithValidCredentials" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667659421696</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add classes BaseTest, LoginTests, ManePage, RegistrationTests, RegistrationPage,">
+      <created>1667660132827</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667660132827</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +191,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="QA-java-diplom-3, UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="QA-java-diplom-3, UI" />
+    <MESSAGE value="add classes BaseTest, LoginTests, ManePage, RegistrationTests, RegistrationPage," />
+    <option name="LAST_COMMIT_MESSAGE" value="add classes BaseTest, LoginTests, ManePage, RegistrationTests, RegistrationPage," />
   </component>
 </project>
