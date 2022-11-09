@@ -12,27 +12,28 @@ import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.WebDriverRunner.url;
 import static org.junit.Assert.assertEquals;
 
-public class LoginTests extends BaseTest {
+public class LoginTests {
     @Test
     @DisplayName("Проверка входа через кнопку на главной странице - Войти в аккаунт")
     public void checkLoginThroughButtonLogin() throws InterruptedException {
+        open("https://stellarburgers.nomoreparties.site");
         MainPage mainPage = new MainPage();
         mainPage.getLoginButton();
         LoginPage loginPage = new LoginPage();
         loginPage.login("testik285554564@gmail.com", "12345jhbbjkn6");
-        Thread.sleep(300);
         //проверка - ожидается переход на стартовую страницу
         String expected = "https://stellarburgers.nomoreparties.site/";
         assertEquals("Ожидался переход на стартовую страницу", expected, url());
         //на стратовой странице появляется кнопка "Оформить заказ"
         String expectedButton = "Оформить заказ";
         assertEquals("Ожидался переход на страницу входа", expectedButton, $(byText("Оформить заказ")).getText());
+
     }
     @Test
     @DisplayName("Проверка входа через кнопку на главной странице - Личный кабинет")
-    public void checkLoginThroughButtonPersonalArea() {
+    public void checkLoginThroughButtonCabinet() throws InterruptedException {
         MainPage mainPage = new MainPage();
-        mainPage.getPersonalArea();
+        mainPage.getCabinet();
         LoginPage loginPage = new LoginPage();
         loginPage.login("testik285554564@gmail.com", "12345jhbbjkn6");
         //проверка - ожидается переход на стартовую страницу

@@ -1,17 +1,19 @@
 package ru.yandex.practikum.pageObject;
 
+import org.openqa.selenium.By;
+
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.page;
 
-public class MainPage extends BasePage{
+public class MainPage{
 
 
     public MainPage getLoginButton(){
-        $(byText("Войти в аккаунт")).click();
+        $(By.xpath(".//*[text()='Войти в аккаунт']")).click();
         return page(MainPage.class);
     }
-    public MainPage getPersonalArea(){
+    public MainPage getCabinet(){
         $(byText("Личный Кабинет")).click();
         return page(MainPage.class);
     }

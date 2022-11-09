@@ -12,17 +12,18 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.actions;
 import static org.openqa.selenium.By.linkText;
+import static org.openqa.selenium.By.xpath;
 
-public class LoginPage extends BasePage{
-    // локатор поля ввода email
-    @FindBy(how = How.XPATH,using = "//*[text()='email']")
-    private SelenideElement emailField;
-    // локатор поля ввода пароля
-    @FindBy(how = How.XPATH,using = "//*[text()='Пароль']")
-    private SelenideElement passwordField;
-    // локатор поля ввода email
-    @FindBy(how = How.XPATH,using = "//*[text()='Войти']")
-    private SelenideElement inputButton;
+public class LoginPage{
+//    // локатор поля ввода email
+//    @FindBy(how = How.XPATH,using = "//input[@name='name']")
+//    private SelenideElement emailField;
+//    // локатор поля ввода пароля
+//    @FindBy(how = How.XPATH,using = "//input[@name='Пароль']")
+//    private SelenideElement passwordField;
+//    // локатор поля ввода email
+//    @FindBy(how = How.XPATH,using = "//button[text()='Войти']")
+//    private SelenideElement inputButton;
 
 
     public LoginPage getRegistrationLink() {
@@ -31,16 +32,21 @@ public class LoginPage extends BasePage{
     }
     // метод заполнения поля ввода email
     public RegistrationPage setEmail(String email) {
-        actions().moveToElement(emailField).click(emailField).sendKeys(email).perform();
+        SelenideElement emailField = $(byText("Email"));
+        emailField.setValue(email);
+//        actions().moveToElement(emailField).click(emailField).sendKeys(email).perform();
         return page(RegistrationPage.class);
     }
     // метод заполнения поля ввода пароля
     public RegistrationPage setPassword(String password) {
-        actions().moveToElement(passwordField).click(passwordField).sendKeys(password).perform();
+        SelenideElement passwordField = $(byText("Пароль"));
+        passwordField.setValue(password);
+//        actions().moveToElement(passwordField).click(passwordField).sendKeys(password).perform();
         return page(RegistrationPage.class);
     }
     // метод нажатия кнопки Войти
     public void setLoginButton() {
+        SelenideElement inputButton = $(xpath(".//*[text()='Войти']"));
         inputButton.shouldBe(exist, Duration.ofSeconds(30)).click();
     }
     // метод авторизации в приложении: объединяет ввод email, пароля и клик по кнопке

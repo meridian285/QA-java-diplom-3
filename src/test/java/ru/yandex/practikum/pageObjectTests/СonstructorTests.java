@@ -11,17 +11,15 @@ import static com.codeborne.selenide.Selenide.open;
 public class СonstructorTests {
     @Test
     public void constructorTest() throws InterruptedException {
-        open("https://stellarburgers.nomoreparties.site");
-        $(byText("Краторная булка N-200i")).click();
-        Thread.sleep(2000);
-        $(byText("Соусы")).click();
-        Thread.sleep(3000);
-
-        $(byText("Краторная булка N-200i")).click();
-
-//        $(byText("Краторная булка N-200i")).shouldBe(visible).shouldHave(text("Краторная булка N-200i"));
-
-
+//        open("https://stellarburgers.nomoreparties.site");
+//        $(byText("Краторная булка N-200i")).click();
+//        Thread.sleep(2000);
+//        $(byText("Соусы")).click();
+//        Thread.sleep(3000);
+//
+//        $(byText("Краторная булка N-200i")).click();
+//
+////        $(byText("Краторная булка N-200i")).shouldBe(visible).shouldHave(text("Краторная булка N-200i"));
 
     }
 }

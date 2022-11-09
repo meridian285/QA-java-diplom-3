@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import static com.codeborne.selenide.Selenide.open;
 
 public abstract class  BaseTest {
-    protected static WebDriver driver;
 
     @BeforeClass
     public static void startBeforeEveryTest(){
@@ -21,12 +20,10 @@ public abstract class  BaseTest {
     }
 //    @After
 //    public void clearDate(){
-//        driver.manage().deleteAllCookies();
-//        ((WebStorage) driver).getLocalStorage().clear();
-//        ((WebStorage) driver).getSessionStorage().clear();
+
 //    }
 //    @AfterClass
 //    public static void tearDown(){
-//        driver.quit();
+
 //    }
 }
