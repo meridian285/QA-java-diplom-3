@@ -1,25 +1,34 @@
 package ru.yandex.practikum.pageObjectTests;
 
+import io.qameta.allure.Step;
+import org.junit.Before;
 import org.junit.Test;
-
-import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import ru.yandex.practikum.pageObject.MainPage;
+import static com.codeborne.selenide.Selenide.*;
 
 public class СonstructorTests {
+    MainPage mainPage;
+    @Before
+    public void setUp(){
+        mainPage = open(MainPage.URL,MainPage.class);
+    }
     @Test
-    public void constructorTest() throws InterruptedException {
-//        open("https://stellarburgers.nomoreparties.site");
-//        $(byText("Краторная булка N-200i")).click();
-//        Thread.sleep(2000);
-//        $(byText("Соусы")).click();
-//        Thread.sleep(3000);
-//
-//        $(byText("Краторная булка N-200i")).click();
-//
-////        $(byText("Краторная булка N-200i")).shouldBe(visible).shouldHave(text("Краторная булка N-200i"));
-
+    @Step("Проверка на переключение вкладок с ингредиентами Соусы")
+    public void checkSwitchingBetweenSouseTabs(){
+        mainPage.clickSouseTab();
+        mainPage.checkSouseTabActive();
+    }
+    @Test
+    @Step("Проверка на переключение вкладок с ингредиентами Начинки")
+    public void checkSwitchingBetweenFillingsTabs() {
+        mainPage.clickFillingsTab();
+        mainPage.checkFillingsTabActive();
+    }
+    @Test
+    @Step("Проверка на переключение вкладок с ингредиентами Булки")
+    public void checkSwitchingBetweenBunsTabs() {
+        mainPage.clickFillingsTab();
+        mainPage.clickBunsTab();
+        mainPage.checkBunsTabActive();
     }
 }
