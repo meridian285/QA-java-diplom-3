@@ -8,13 +8,13 @@ import ru.yandex.practikum.pageObject.ForgotPasswordPage;
 import ru.yandex.practikum.pageObject.LoginPage;
 import ru.yandex.practikum.pageObject.MainPage;
 import ru.yandex.practikum.pageObject.RegistrationPage;
-import ru.yandex.practikum.pageObject.api.steps.UserSteps;
-import ru.yandex.practikum.pageObject.dataGenerator.User;
-import ru.yandex.practikum.pageObject.dataGenerator.UserDataGenerator;
+import ru.yandex.practikum.api.steps.UserSteps;
+import ru.yandex.practikum.api.dataGenerator.User;
+import ru.yandex.practikum.api.dataGenerator.UserDataGenerator;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class LoginTests {
+public class LoginTests extends BaseTest{
     User user;
     RegistrationPage registrationPage;
     LoginPage loginPage;
@@ -65,7 +65,7 @@ public class LoginTests {
     }
     @Test
     @DisplayName("Проверка входа через кнопку на главной странице - Личный кабинет")
-    public void checkLoginThroughForgotPassword() throws InterruptedException {
+    public void checkLoginThroughForgotPassword() {
         accessToken = userSteps.create(user).then().extract().path("accessToken");
         mainPage.clickSingInButton();
         loginPage.clickForgotPasswordLink();

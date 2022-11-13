@@ -5,9 +5,7 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import com.codeborne.selenide.SelenideElement;
-import ru.yandex.practikum.pageObject.dataGenerator.User;
-import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.WebDriverConditions.url;
+import ru.yandex.practikum.api.dataGenerator.User;
 
 public class RegistrationPage{
     public static final String URL = "http://stellarburgers.nomoreparties.site/register";
@@ -57,10 +55,6 @@ public class RegistrationPage{
     @Step("метод нажатия ссылки Войти")
     public void clickLoginLink() {
         loginLink.click();
-    }
-    @Step("Проверка что загрузился URL регистрации")
-    public void checkRegistrationURL(){
-        webdriver().shouldHave(url(URL));
     }
     @Step("Проверка что появилось сообщение Некорректный пароль")
     public void checkInvalidPasswordMessage(){

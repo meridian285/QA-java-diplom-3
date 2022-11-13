@@ -4,22 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6d90de8-82c8-4a73-a1a4-e13c2c835225" name="Changes" comment="переделал логин">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/ForgotPasswordPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/ProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/api/steps/RestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/api/steps/UserSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/dataGenerator/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/ProfileTests.java" afterDir="false" />
+    <list default="true" id="f6d90de8-82c8-4a73-a1a4-e13c2c835225" name="Changes" comment="выполнено, не работают анотации аллур">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/MainPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObject/UserDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/dataGenerator/UserDataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/api/steps/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/api/steps/RestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/api/steps/UserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/api/steps/UserSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/dataGenerator/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/api/dataGenerator/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/dataGenerator/UserDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/api/dataGenerator/UserDataGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/ProfileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/ProfileTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/RegistrationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/СonstructorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/СonstructorTests.java" afterDir="false" />
     </list>
@@ -62,6 +60,10 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexandr\IdeaProjects\QA-java-diplom-3" />
+      <recent name="C:\Users\alexandr\IdeaProjects\QA-java-diplom-3\src" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.yandex.practikum.pageObject" />
     </key>
@@ -71,7 +73,30 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTests.checkLoginThroughForgotPassword">
+  <component name="RunManager" selected="JUnit.СonstructorTests">
+    <configuration name="All in QA-java-diplom-3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.practikum.pageObjectTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.practikum.pageObjectTests" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practikum.pageObjectTests.LoginTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTests.checkLoginThroughButtonLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA-java-diplom-3" />
       <extension name="coverage">
@@ -88,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.checkLoginThroughForgotPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProfileTests.checkClickCabinetLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA-java-diplom-3" />
       <extension name="coverage">
         <pattern>
@@ -97,14 +122,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.yandex.practikum.pageObjectTests" />
-      <option name="MAIN_CLASS_NAME" value="ru.yandex.practikum.pageObjectTests.LoginTests" />
-      <option name="METHOD_NAME" value="checkLoginThroughForgotPassword" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.practikum.pageObjectTests.ProfileTests" />
+      <option name="METHOD_NAME" value="checkClickCabinetLink" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="СonstructorTests.checkSwitchingBetweenBunsTabs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="СonstructorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA-java-diplom-3" />
       <extension name="coverage">
         <pattern>
@@ -114,47 +139,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.yandex.practikum.pageObjectTests" />
       <option name="MAIN_CLASS_NAME" value="ru.yandex.practikum.pageObjectTests.СonstructorTests" />
-      <option name="METHOD_NAME" value="checkSwitchingBetweenBunsTabs" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ru.yandex.practikum.pageObject in QA-java-diplom-3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA-java-diplom-3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.yandex.practikum.pageObject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.yandex.practikum.pageObject" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ru.yandex.practikum.pageObjectTests in QA-java-diplom-3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA-java-diplom-3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.yandex.practikum.pageObjectTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.yandex.practikum.pageObjectTests" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginTests.checkLoginThroughForgotPassword" />
+        <item itemvalue="JUnit.СonstructorTests" />
         <item itemvalue="JUnit.LoginTests.checkLoginThroughButtonLogin" />
-        <item itemvalue="JUnit.ru.yandex.practikum.pageObjectTests in QA-java-diplom-3" />
-        <item itemvalue="JUnit.ru.yandex.practikum.pageObject in QA-java-diplom-3" />
-        <item itemvalue="JUnit.СonstructorTests.checkSwitchingBetweenBunsTabs" />
+        <item itemvalue="JUnit.All in QA-java-diplom-3" />
+        <item itemvalue="JUnit.ProfileTests.checkClickCabinetLink" />
+        <item itemvalue="JUnit.LoginTests" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667880553233</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="выполнено, не работают анотации аллур">
+      <created>1668288377696</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668288377696</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,17 +229,7 @@
     <MESSAGE value="add classes BaseTest, LoginTests, ManePage, RegistrationTests, RegistrationPage," />
     <MESSAGE value="сделаны теста на регистрацию и логин" />
     <MESSAGE value="переделал логин" />
-    <option name="LAST_COMMIT_MESSAGE" value="переделал логин" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/LoginTests.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="выполнено, не работают анотации аллур" />
+    <option name="LAST_COMMIT_MESSAGE" value="выполнено, не работают анотации аллур" />
   </component>
 </project>

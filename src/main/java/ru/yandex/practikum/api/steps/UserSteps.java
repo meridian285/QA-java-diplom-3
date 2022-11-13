@@ -1,10 +1,9 @@
-package ru.yandex.practikum.pageObject.api.steps;
+package ru.yandex.practikum.api.steps;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
-import org.json.JSONObject;
-import ru.yandex.practikum.pageObject.dataGenerator.User;
+import ru.yandex.practikum.api.dataGenerator.User;
 
 import static io.restassured.RestAssured.given;
 

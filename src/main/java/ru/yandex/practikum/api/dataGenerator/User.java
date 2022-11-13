@@ -1,4 +1,4 @@
-package ru.yandex.practikum.pageObject.dataGenerator;
+package ru.yandex.practikum.api.dataGenerator;
 
 public class User {
     private String email;

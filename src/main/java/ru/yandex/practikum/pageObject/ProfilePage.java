@@ -2,7 +2,6 @@ package ru.yandex.practikum.pageObject;
 
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
-import org.junit.Test;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 

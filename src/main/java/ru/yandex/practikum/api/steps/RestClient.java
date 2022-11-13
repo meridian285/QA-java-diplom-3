@@ -1,4 +1,4 @@
-package ru.yandex.practikum.pageObject.api.steps;
+package ru.yandex.practikum.api.steps;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;

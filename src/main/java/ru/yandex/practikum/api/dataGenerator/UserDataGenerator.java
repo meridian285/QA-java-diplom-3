@@ -1,7 +1,7 @@
-package ru.yandex.practikum.pageObject.dataGenerator;
+package ru.yandex.practikum.api.dataGenerator;
 
-import com.github.javafaker.Faker;
 import io.qameta.allure.Step;
+import net.datafaker.Faker;
 
 
 public class UserDataGenerator {

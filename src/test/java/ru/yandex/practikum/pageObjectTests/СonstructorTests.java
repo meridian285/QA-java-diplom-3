@@ -1,17 +1,24 @@
 package ru.yandex.practikum.pageObjectTests;
 
 import io.qameta.allure.Step;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import ru.yandex.practikum.pageObject.MainPage;
 import static com.codeborne.selenide.Selenide.*;
 
-public class СonstructorTests {
+public class СonstructorTests extends BaseTest{
     MainPage mainPage;
+
     @Before
     public void setUp(){
         mainPage = open(MainPage.URL,MainPage.class);
     }
+    @After
+    public void tearDown() {
+        webdriver().driver().close();
+    }
+
     @Test
     @Step("Проверка на переключение вкладок с ингредиентами Соусы")
     public void checkSwitchingBetweenSouseTabs(){

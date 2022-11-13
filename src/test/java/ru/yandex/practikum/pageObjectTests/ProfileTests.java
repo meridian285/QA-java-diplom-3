@@ -5,13 +5,13 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import ru.yandex.practikum.pageObject.*;
-import ru.yandex.practikum.pageObject.api.steps.UserSteps;
-import ru.yandex.practikum.pageObject.dataGenerator.User;
-import ru.yandex.practikum.pageObject.dataGenerator.UserDataGenerator;
+import ru.yandex.practikum.api.steps.UserSteps;
+import ru.yandex.practikum.api.dataGenerator.User;
+import ru.yandex.practikum.api.dataGenerator.UserDataGenerator;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class ProfileTests{
+public class ProfileTests extends BaseTest{
     User user;
     LoginPage loginPage;
     MainPage mainPage;

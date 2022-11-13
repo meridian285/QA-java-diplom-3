@@ -6,10 +6,10 @@ import org.junit.Before;
 import org.junit.Test;
 import ru.yandex.practikum.pageObject.LoginPage;
 import ru.yandex.practikum.pageObject.RegistrationPage;
-import ru.yandex.practikum.pageObject.dataGenerator.User;
-import ru.yandex.practikum.pageObject.dataGenerator.UserDataGenerator;
+import ru.yandex.practikum.api.dataGenerator.User;
+import ru.yandex.practikum.api.dataGenerator.UserDataGenerator;
 import static com.codeborne.selenide.Selenide.*;
-public class RegistrationTests{
+public class RegistrationTests extends BaseTest{
     User user;
     RegistrationPage registration;
     LoginPage loginPage;
@@ -18,6 +18,10 @@ public class RegistrationTests{
         loginPage = page(LoginPage.class);
         registration = open(RegistrationPage.URL, RegistrationPage.class);
         user = UserDataGenerator.getUserCreateFaker();
+    }
+    @After
+    public void tearDown() {
+        webdriver().driver().close();
     }
 
     @Test
