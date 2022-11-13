@@ -37,25 +37,25 @@ public class LoginPage{
         linkForgotPassword.click();
     }
 
-    @Step ("метод заполнения поля ввода email")
+    @Step ("Метод заполнения поля ввода email")
     public void setEmail(String email) {
         emailField.setValue(email);
     }
-    @Step ("метод заполнения поля ввода пароля")
+    @Step ("Метод заполнения поля ввода пароля")
     public void setPassword(String password) {
         passwordField.setValue(password);
     }
-    @Step ("метод нажатия кнопки Войти")
+    @Step ("Метод нажатия кнопки Войти")
     public void setLoginButton() {
         inputButton.click();
     }
-    @Step ("метод авторизации в приложении: объединяет ввод email, пароля и клик по кнопке")
+    @Step ("Метод авторизации в приложении: объединяет ввод email, пароля и клик по кнопке")
     public void login(User user) {
         setEmail(user.getEmail());
         setPassword(user.getPassword());
         setLoginButton();
     }
-    @Step("метод проверки загрузки страницы login")
+    @Step("Метод проверки загрузки страницы login")
     public void checkUrlLogin(){
         webdriver().shouldHave(url(URL));
     }

@@ -29,30 +29,30 @@ public class RegistrationPage{
     @FindBy(how = How.XPATH, using = "//form/fieldset[2]/div/div/input")
     protected SelenideElement emailField;
 
-    @Step("метод заполнения поля ввода name")
+    @Step("Метод заполнения поля ввода name")
     public void setUsername(String name) {
             nameField.setValue(name);
     }
-    @Step("метод заполнения поля ввода email")
+    @Step("Метод заполнения поля ввода email")
     public void setEmail(String email) {
             emailField.setValue(email);
     }
-    @Step ("метод заполнения поля ввода пароля")
+    @Step ("Метод заполнения поля ввода пароля")
     public void setPassword(String password) {
             passwordField.setValue(password);
     }
-    @Step("метод нажатия кнопки Зарегистрироваться")
+    @Step("Метод нажатия кнопки Зарегистрироваться")
     public void setRegistrationButton() {
         registrationButton.click();
     }
-    @Step("метод авторизации в приложении: объединяет ввод email, пароля и клик по кнопке")
+    @Step("Метод авторизации в приложении: объединяет ввод email, пароля и клик по кнопке")
     public void userRegistration(User user){
         setUsername(user.getName());
         setEmail(user.getEmail());
         setPassword(user.getPassword());
         setRegistrationButton();
     }
-    @Step("метод нажатия ссылки Войти")
+    @Step("Метод нажатия ссылки Войти")
     public void clickLoginLink() {
         loginLink.click();
     }

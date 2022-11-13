@@ -6,19 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f6d90de8-82c8-4a73-a1a4-e13c2c835225" name="Changes" comment="выполнено, не работают анотации аллур">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/ProfilePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/api/steps/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/api/steps/RestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/api/steps/UserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/api/steps/UserSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/dataGenerator/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/api/dataGenerator/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/pageObject/dataGenerator/UserDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practikum/api/dataGenerator/UserDataGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/LoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/ProfileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/ProfileTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/RegistrationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/СonstructorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/yandex/practikum/pageObjectTests/СonstructorTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +47,10 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/alexandr/IdeaProjects/QA-java-diplom-3/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/alexandr/Desktop/Sprint_4-develop&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alexandr/Desktop/Sprint_4-develop&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -70,7 +64,10 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn verify" />
       <command value="mvn clean test" />
+      <command value="mvn allure:serve" />
     </option>
   </component>
   <component name="RunManager" selected="JUnit.СonstructorTests">

@@ -14,7 +14,7 @@ public abstract class  BaseTest {
         System.setProperty("webdriver.chrome.driver", pathChrome);
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
-//        options.addArguments("--headless");
+        options.addArguments("--headless");
         WebDriver driver = new ChromeDriver(options);
         WebDriverRunner.setWebDriver(driver);
     }

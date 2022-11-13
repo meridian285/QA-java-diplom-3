@@ -1,6 +1,7 @@
 package ru.yandex.practikum.pageObjectTests;
 
 import io.qameta.allure.Step;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -33,7 +34,7 @@ public class ProfileTests extends BaseTest{
         userSteps.deleteUser(accessToken);
     }
     @Test
-    @Step("Переход по клику на личный кабинет")
+    @DisplayName("Переход по клику на личный кабинет")
     public void checkClickCabinetLink(){
         accessToken = userSteps.create(user).then().extract().path("accessToken");
         mainPage.clickSingInButton();
@@ -42,7 +43,7 @@ public class ProfileTests extends BaseTest{
         profilePage.checkProfileUrl();
     }
     @Test
-    @Step("Тест на переход из личного кабинета в конструктор по клику на Конструктор")
+    @DisplayName("Тест на переход из личного кабинета в конструктор по клику на Конструктор")
     public void checkClickConstructorInTheProfile(){
         accessToken = userSteps.create(user).then().extract().path("accessToken");
         mainPage.clickSingInButton();
@@ -52,7 +53,7 @@ public class ProfileTests extends BaseTest{
         mainPage.checkPlaceOrderButton();
     }
     @Test
-    @Step("Тест на переход из личного кабинета в конструктор по клику на логотип")
+    @DisplayName("Тест на переход из личного кабинета в конструктор по клику на логотип")
     public void checkClickLogoInTheProfile(){
         accessToken = userSteps.create(user).then().extract().path("accessToken");
         mainPage.clickSingInButton();
@@ -62,7 +63,7 @@ public class ProfileTests extends BaseTest{
         mainPage.checkPlaceOrderButton();
     }
     @Test
-    @Step("Тест на выход из аккаунта")
+    @DisplayName("Тест на выход из аккаунта")
     public void checkClickLogoffInTheProfile(){
         accessToken = userSteps.create(user).then().extract().path("accessToken");
         mainPage.clickSingInButton();

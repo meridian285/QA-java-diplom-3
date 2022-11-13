@@ -1,0 +1,9 @@
+ru\yandex\practikum\api\steps\RestClient.class
+ru\yandex\practikum\pageObject\LoginPage.class
+ru\yandex\practikum\pageObject\ProfilePage.class
+ru\yandex\practikum\api\steps\UserSteps.class
+ru\yandex\practikum\api\dataGenerator\UserDataGenerator.class
+ru\yandex\practikum\pageObject\ForgotPasswordPage.class
+ru\yandex\practikum\pageObject\MainPage.class
+ru\yandex\practikum\pageObject\RegistrationPage.class
+ru\yandex\practikum\api\dataGenerator\User.class
